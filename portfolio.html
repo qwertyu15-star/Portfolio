@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Akhil V</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Contact</a></li>
+                                
+                    </ul>
+                </nav>
+            </header>
+            <div class="mini-container">
+                <div class="pic">
+                    <img src="images/IMG_20210518_193139.jpg" alt="profile pic">
+                </div>
+                <div class="pic-text">
+                    <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>Akhil V</h1>
+                    <p>
+                        Hello there! 👋 I am Akhil , a recent graduate with a Bachelor of science from Rayalaseema University 
+                        (National Degree College,Nandyal). Passionate about [IT & NON-IT], I am eager to embark on a fulfilling 
+                        journey in the world of Development of Software.
+                        <br>
+
+<br>🔍 **About Me:** <br>
+- 🎓 Graduated with a degree in Computer Science.
+- 💡 Adept at [Html], [CSS],[MySql].
+- 🌱 Eager to apply my theoretical knowledge in a practical setting.
+<br>
+<br>🚀 **Why Hire Me:** <br>
+- 📚 Quick learner: I am excited about acquiring new skills and staying up-to-date with industry trends.
+- 💪 Strong work ethic: I am committed to delivering high-quality work and meeting deadlines.
+- 🤝 Team player: I thrive in collaborative environments and value open communication.
+<br>
+<br>🌐 **What I Bring:** <br>
+- 💡 Strong analytical and problem-solving skills.
+- 📊 Solid understanding of [Relevant Concepts or Tools].
+- 🎯 Detail-oriented with a passion for achieving excellence.
+<br>
+<br>🌈 **My Vision:** <br>
+I am seeking an opportunity to contribute my skills and knowledge to a dynamic team. I am excited to grow both personally and professionally, and I am confident in my ability to make a positive impact.
+<br>
+<br>📬 **Let's Connect:** <br>
+I am open to networking, mentorship, and exploring potential opportunities. Feel free to reach out if you share my passion for your job role.
+<br>
+Thank you for visiting my profile! 🚀 Let's connect and explore the possibilities together.
+<br>
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div> 
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>   
+                 </div>
+            </div>
+        </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script>
+    var togglebtn=document.querySelector(".togglebtn");
+    var nav=document.querySelector(".navlinks");
+    var links=document.querySelector(".navlinks li");
+
+    togglebtn.addEventListener("click",function(){
+        this.classlist.toggle("click");
+        nav.classList.toggle("open");
+    })
+
+    var typed=new typed(".input",{
+        strings:["Frontend Developer","Web Developer","BDA"],
+        typedSpeed:70,
+        backSpeed:55,
+        loop:true
+    })
+</script>
+
+</body>
+</html>
